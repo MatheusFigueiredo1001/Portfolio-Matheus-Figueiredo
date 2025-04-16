@@ -261,9 +261,11 @@ footer p {
 }
 
 .button-top {
-	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 35px;
 	right: 5%;
-	top: 429%;
 	background-color: transparent;
 	border: none;
 	font-size: 24px;
